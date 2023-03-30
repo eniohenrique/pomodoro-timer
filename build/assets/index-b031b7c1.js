@@ -308,7 +308,7 @@ Error generating stack: `+o.message+`
     }
 
 
-`,t2="/assets/LogoImexperts-4e8e9012.png";function n2(){return Xe(e2,{children:[q("img",{src:t2,alt:""}),Xe("nav",{children:[q(sf,{to:"/",title:"Timer",children:q(v1,{size:24})}),q(sf,{to:"/history",title:"Histórico",children:q(p1,{size:24})})]})]})}const r2=ct.div`
+`,t2="https://eniohenrique.github.io/pomodoro-timer/assets/LogoImexperts-4e8e9012.png";function n2(){return Xe(e2,{children:[q("img",{src:t2,alt:""}),Xe("nav",{children:[q(sf,{to:"/",title:"Timer",children:q(v1,{size:24})}),q(sf,{to:"/history",title:"Histórico",children:q(p1,{size:24})})]})]})}const r2=ct.div`
 
     max-width: 74rem;
     height: calc(100vh - 10rem);
