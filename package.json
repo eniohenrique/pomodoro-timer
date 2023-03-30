@@ -1,12 +1,15 @@
 {
-  "name": "02-ignite-timer-2",
+  "name": "pomodoro-timer",
+  "homepage": "https://eniohenrique.github.io/pomodoro-timer/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.11",
@@ -14,6 +17,7 @@
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/stack": "^6.3.16",
     "date-fns": "^2.29.3",
+    "gh-pages": "^5.0.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
