@@ -6,16 +6,18 @@ import { DefaultLayout } from "./layouts/DefaultLayout/DefaultLayout";
 
 export function Router() {
     return (
-        <Routes>
-            {/* ELE IRÁ APLICAR O "DefaultLayout" EM TODOS AS ROTAS APARTIR DO "/" */}
-            <Route path="/" element={<DefaultLayout />}>
 
-                <Route path="/" element={<Home />} />
-                <Route path="/history" element={<History />} />
+            <Routes>
+                {/* ELE IRÁ APLICAR O "DefaultLayout" EM TODOS AS ROTAS APARTIR DO "/" */}
+                <Route path="/" element={<DefaultLayout />}>
 
-            </Route>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/history" element={<History />} />
 
-        </Routes>
+                </Route>
+
+            </Routes>
+ 
 
     );
 
